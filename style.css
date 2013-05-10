@@ -1,0 +1,16 @@
+/*Main elevents style*/
+body        { margin: 0; padding: 0; background-color: #f3f3f3; }
+aside       { position: fixed; width: 230px; border-left: 1px solid #CFCFCF; top: 175px; right: 0; padding-left: 25px;}
+footer      { position: fixed; bottom: 0; height: 32px; left: 0; width: 100%; background-color: #242424; }
+section     { position: relative; top: 175px; width:960px; left: 100px; background-color: #f3f3f3; }
+
+/*Header style*/
+.mainNav    { position: fixed; top: 0; left: 0; background: linear-gradient(#353535, #010101) repeat scroll 0 0 transparent;
+                width: 100%; color: white; height: 56px; z-index: 1; padding-left: 100px; }
+.projectNav { position: fixed; top: 56px; width: 100%; background-color: #fdfdfd; border-bottom: 1px solid #CFCFCF;
+                color: #1769fd; z-index: 1; padding-left: 100px; }
+
+/*Colum style*/
+.grid_4     { background-color: #fdfdfd; border-radius: 5px; margin-bottom: 25px; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+                text-align: center; }
+
